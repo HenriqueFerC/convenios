@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+.itemUm, .itemDois{
+    border: 0.25rem solid black;
+    padding: 1rem;
+}
+
+
+
+.sitesObrigatorios{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: blue;
+}
+
+.sitesDosConvênios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: blue;
+}
+
+.listaObrigatoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+#sistemaFluxo, #gliese,
+#gliesePiloto, #oraculo,
+#teams, #sqDasa,
+#canalDoConsultor, #orizon{
+    cursor:pointer;
+    padding: 1rem;
+    border: 0.15rem solid lightblue;
+    background-color: lightblue;
+}
+
+.listaConvenios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.listaConvenios li {
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+#sulamerica, #bradesco, #amil, #saviatendimento, #portoSaude, #unimed, #segurosUnimed,
+#postalSaude, #blue, #labet, #geap, #gama{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: flex-start;
+}
+
+#sulamerica{
+    border: 0.2rem solid orange;
+    color: orangered;
+}
+
+#bradesco{
+    border: 0.2rem solid red;
+    color: red;
+}
+
+#amil{
+    border: 0.2rem solid rgb(71, 199, 241);
+    color: rgb(71, 199, 241);
+}
+
+#saviatendimento{
+    border: 0.2rem solid rgb(206, 141, 22);
+    color: rgb(206, 141, 22);
+}
+
+#portoSaude{
+    border: 0.2rem solid blue;
+    color: blue;
+}
+
+#unimed{
+    border: 0.2rem solid green;
+    color: green;
+}
+
+#segurosUnimed{
+    border: 0.2rem solid rgba(60, 8, 247, 0.842);
+    color: rgba(60, 8, 247, 0.842);
+}
+
+#postalSaude{
+    border: 0.2rem solid rgba(60, 101, 235, 0.842);
+    color: rgba(60, 101, 235, 0.842);
+}
+
+#blue{
+    border: 0.2rem solid rgba(0, 86, 247, 0.842);
+    color: rgba(0, 86, 247, 0.842);
+}
+
+#labet{
+    border: 0.2rem solid rgba(245, 103, 8, 0.842);
+    color: rgba(245, 103, 8, 0.842);
+}
+
+#geap{
+    border: 0.2rem solid rgba(238, 49, 15, 0.842);
+    color: rgba(238, 49, 15, 0.842);
+}
+
+#gama{
+    border: 0.2rem solid rgba(0, 69, 128, 0.842);
+    color: rgba(0, 69, 128, 0.842);
+}
+
+#sulamericabotao, #bradescobotao, #amilbotao, #unimedbotao, #portoSaudebotao, #saviatendimentobotao,
+#segurosUnimedbotao, #postalSaudebotao, #bluebotao, #labetbotao, #geapbotao, #gamabotao{
+    cursor: pointer;
+}
+
+
